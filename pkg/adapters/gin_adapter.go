@@ -47,6 +47,10 @@ func (g *GinLogger) Logger() gin.HandlerFunc {
 
 		// 请求IP
 		clientIP := c.ClientIP()
+		traceID := c.Request.Header.Get("X-Trace-ID")
+		if traceID == "" {
+			traceID = fmt.Sprintf("%d", time.Now().UnixNano())
+		}
 
 		// 日志字段
 		fields := []logger.Field{
@@ -56,6 +60,7 @@ func (g *GinLogger) Logger() gin.HandlerFunc {
 			{Key: "ip", Value: clientIP},
 			{Key: "latency", Value: latencyTime},
 			{Key: "timestamp", Value: endTime},
+			{Key: "trace_id", Value: traceID},
 		}
 
 		// 根据状态码设置日志级别
