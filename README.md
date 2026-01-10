@@ -54,7 +54,7 @@ go mod tidy
 package main
 
 import (
-	"LandcLogFace"
+	"github.com/LandcLi/LandcLogFace"
 )
 
 func main() {
@@ -85,7 +85,7 @@ func main() {
 package main
 
 import (
-	"LandcLogFace"
+	"github.com/LandcLi/LandcLogFace"
 )
 
 func main() {
@@ -111,7 +111,7 @@ LandcLogFace支持多种日志库，你可以根据需要选择合适的日志�
 package main
 
 import (
-	"LandcLogFace"
+	"github.com/LandcLi/LandcLogFace"
 )
 
 func main() {
@@ -143,7 +143,7 @@ func main() {
 package main
 
 import (
-	"LandcLogFace"
+	"github.com/LandcLi/LandcLogFace"
 )
 
 func main() {
@@ -164,7 +164,7 @@ func main() {
 package main
 
 import (
-	"LandcLogFace"
+	"github.com/LandcLi/LandcLogFace"
 )
 
 func main() {
@@ -189,7 +189,7 @@ func main() {
 package main
 
 import (
-	"LandcLogFace"
+	"github.com/LandcLi/LandcLogFace"
 )
 
 func main() {
@@ -218,7 +218,7 @@ func main() {
 package main
 
 import (
-	"LandcLogFace"
+	"github.com/LandcLi/LandcLogFace"
 	"context"
 )
 
@@ -241,7 +241,7 @@ func main() {
 package main
 
 import (
-	"LandcLogFace"
+	"github.com/LandcLi/LandcLogFace"
 	"errors"
 )
 
@@ -266,7 +266,7 @@ func main() {
 package main
 
 import (
-	"LandcLogFace"
+	"github.com/LandcLi/LandcLogFace"
 	"time"
 )
 
@@ -285,7 +285,7 @@ func main() {
 package main
 
 import (
-	"LandcLogFace"
+	"github.com/LandcLi/LandcLogFace"
 )
 
 func main() {
@@ -324,7 +324,7 @@ LandcLogFace支持详细的日志文件轮转配置，包括文件大小限制�
 package main
 
 import (
-	"LandcLogFace"
+	"github.com/LandcLi/LandcLogFace"
 	"time"
 )
 
@@ -364,7 +364,7 @@ LandcLogFace提供了`LogConfig`统一配置类，用于集中管理所有日志
 package main
 
 import (
-	"LandcLogFace"
+	"github.com/LandcLi/LandcLogFace"
 	"time"
 )
 
@@ -417,7 +417,7 @@ LandcLogFace提供了常用Web框架的日志适配器，方便在框架中使�
 package main
 
 import (
-	"LandcLogFace"
+	"github.com/LandcLi/LandcLogFace"
 	"github.com/gin-gonic/gin"
 )
 
@@ -466,7 +466,7 @@ go get github.com/gogf/gf/v2
 package main
 
 import (
-	"LandcLogFace"
+	"github.com/LandcLi/LandcLogFace"
 	"context"
 
 	"github.com/gogf/gf/v2/os/glog"
@@ -505,7 +505,7 @@ func main() {
 package main
 
 import (
-	"LandcLogFace"
+	"github.com/LandcLi/LandcLogFace"
 	"fmt"
 )
 
